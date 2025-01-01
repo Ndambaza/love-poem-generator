@@ -7,38 +7,47 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>❤️Love Poem Generator❤️</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the love poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="poem">
-        The Poem will go here
-        <br />
-        The Poem will go here
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/Ndambaza" target="_blank">Natalie Dambaza</a>
-      and was open sourced on
-      <a href="https://github.com/Ndambaza/love-poem-generator" target="_blank">
-        GitHub
-      </a>
-      and website hosted on
-      <a href="https://love-poems-generator.netlify.app" target="_blank">
-        Netlify
-      </a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Love Poem Generator💌</h1>
+      </header>
+
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the love poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The Poem will go here
+          <br />
+          The Poem will go here
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/Ndambaza" target="_blank"
+          >Natalie Dambaza</a
+        >
+        and was open sourced on
+        <a
+          href="https://github.com/Ndambaza/love-poem-generator"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        and website hosted on
+        <a href="https://love-poems-generator.netlify.app" target="_blank">
+          Netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
